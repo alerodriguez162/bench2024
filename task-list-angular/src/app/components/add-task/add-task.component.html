@@ -1,0 +1,6 @@
+<div class="mt-4 flex justify-center">
+  <form class="flex items-center gap-2" (ngSubmit)="addTask()">
+    <input class="flex-1 p-2 border-2 border-gray-200 rounded shadow" [(ngModel)]="newTask" name="newTask" placeholder="Add new task" required />
+    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Add</button>
+  </form>
+</div>
